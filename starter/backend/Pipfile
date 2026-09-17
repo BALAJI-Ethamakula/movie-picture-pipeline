@@ -5,14 +5,15 @@ name = "pypi"
 
 [packages]
 flask = "*"
-uwsgi = "*"
 flask-cors = "*"
 pytest = "*"
+uwsgi = "*"
+six = "*"
 
 [dev-packages]
 black = "*"
-flake8 = "*"
 coverage = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.10"
